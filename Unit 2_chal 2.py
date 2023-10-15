@@ -1,4 +1,4 @@
-# Aswathi_5A2069C5AE90184892646FC04727B569class BankAccount:
+class BankAccount:
     def __init__(self, account_number, account_holder_name, initial_balance):
         self.__account_number = account_number
         self.__account_holder_name = account_holder_name
@@ -32,26 +32,3 @@ account1.display_balance()
 account1.deposit(500.0)
 account1.withdraw(200.0)
 account1.display_balance()
-
-
-
-
-class Player:
-    def play(self):
-        print("The player is playing cricket.")
-
-class Batsman(Player):
-    def play(self):
-        print("The batsman is batting.")
-
-class Bowler(Player):
-    def play(self):
-        print("The bowler is bowling.")
-
-# Create objects of Batsman and Bowler classes
-batsman = Batsman()
-bowler = Bowler()
-
-# Call the play() method for each object
-batsman.play()
-bowler.play()
